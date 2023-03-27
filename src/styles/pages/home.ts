@@ -10,7 +10,7 @@ export const HomeContainer = styled('main', {
 })
 
 export const Product = styled('a', {
-  background: 'linear-gradient(180deg, #1ea483 0%, #7465d4 100%',
+  background: 'linear-gradient(180deg, #1ea483 0%, #7465d4 100%)',
   borderRadius: 8,
   padding: '0.25rem',
   cursor: 'pointer',
@@ -54,12 +54,12 @@ export const Product = styled('a', {
       color: '$green300',
     },
 
-    '&:hover': {
-      footer: {
-        transform: 'translateY(0%)',
-        opacity: 1,
-      }
+  },
+  
+  '&:hover': {
+    footer: {
+      transform: 'translateY(0%)',
+      opacity: 1,
     }
   }
-
 })

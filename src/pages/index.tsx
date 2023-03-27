@@ -1,14 +1,14 @@
 import Image from "next/image";
 import { HomeContainer, Product } from "../styles/pages/home";
 
-const camisa1 = '../assets/Shirt/camisa1.png';
-const camisa2 = '../assets/Shirt/camisa2.png';
+const camisa1 = '/camisa1.png';
+const camisa2 = '/camisa2.png';
 
 export default function Home() {
   return (
     <HomeContainer>
       <Product>
-        <Image src={camisa1} width={520} height={480} alt="" />
+        <Image src={camisa1} width={520} height={480} alt="Picture" />
 
         <footer>
           <strong>Camiseta X</strong>
